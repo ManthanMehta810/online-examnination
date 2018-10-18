@@ -1,0 +1,111 @@
+a:hover {
+    color: #465a61;
+}
+.headerStrip{
+	background:#465a61;
+}
+.logo{
+	background:url(../images/layout/logo.png) no-repeat;
+}
+.nav ul li.mainLink a:hover, .nav ul li.mainLink a:active,.nav ul li.mainLink a:first-child.active{
+	color:#465a61;
+}
+.tabsLeftContainer ul li a:hover, .tabsLeftContainer ul li.active a {
+	color:#465a61;
+}
+.tabsRightContainer .tabsContainer ul li h5 {
+	color:#465a61;
+}
+.tabsRightContainer .tabsContainer ul li a:hover {
+	color:#465a61;
+}
+.news h2{
+	color:#465a61;
+}
+.tabTxt h2{
+	color:#465a61;
+}
+.downPros .tabIcon {
+	border-right:1px solid #2a5260;
+}
+.downPros h2 {
+	color:#FFF;
+}
+.moreInfo{
+	color:#465a61;
+}
+.sliderTabTxt h3{
+	color:#465a61;
+}
+.hoverContent p span {
+	color:#465a61;
+}
+.hoverContent li a.readMore{
+	color:#465a61;
+}
+.loginContainer h3, #searchPopup h3, #forgotPassword h3 {
+	color:#465a61;
+}
+.loginContainer p a {
+	color:#465a61;
+}
+.infoContainer h3 {
+	color:#465a61;
+}
+#searchContainer p a {
+	color:#465a61;
+}
+
+/* INNER PAGES */
+.directionNav p span {
+	color:#465a61;
+}
+.quickLinks ul li a:hover, .quickLinks ul li a.active{
+	color:#465a61;
+}
+.searchAndTabs .news h2 {
+	color:#51666E;
+}
+.events h3 {
+	color:#465a61;
+}
+.eventCalendar {
+	background:#465a61;
+}
+
+/* VIDEO PAGE */
+#galleryContainer section p strong {
+	color:#465a61;
+}
+
+/* BOARDS PAGE */
+.executive_leadership_cont_sec h2 a:hover {
+	color:#465a61 !important;
+}
+
+/* CALENDAR */
+.table tbody td.active .day-number {
+	color:#465a61;
+}
+.table tbody td.active li {
+	color:#465a61;
+}
+.table tbody td.active {
+	background:#bed3db;
+}
+.popupContainer h3 {
+	color:#465a61;
+}
+.popupContainer p a {
+	color:#465a61;
+}
+
+/* EVENTS */
+#galleryContainer section h3 {
+	color:#465a61;
+}
+
+/* SITEMAP */
+.sitemapContainer ul h5 {
+	color:#465a61;
+}

@@ -1,0 +1,196 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="OnlineExam.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Dr. D. Y. Patil Polytechnic</title>
+    <%--<asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>--%>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+    <style type="text/css">
+        .style3
+        {
+            text-align: left;
+        }
+    </style>
+      <asp:ContentPlaceHolder ID="head" runat="server">
+   </asp:ContentPlaceHolder>
+   
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <div id="header_wrapper">
+  <div id="header">
+   <!-- <div id="site_title">-->
+    <!-- Start WOWSlider.com BODY section -->
+	<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+<li><img src="data1/images/innerbannercollege.jpg" alt="innerBannerCollege" title="innerBannerCollege" id="wows1_0"/></li>
+<li><img src="data1/images/gallery_103820800.jpg" alt="GALLERY_103820800" title="GALLERY_103820800" id="wows1_1"/></li>
+<li><img src="data1/images/gallery_108154296.jpg" alt="GALLERY_108154296" title="GALLERY_108154296" id="wows1_2"/></li>
+<li><img src="data1/images/gallery_406921386.jpg" alt="GALLERY_406921386" title="GALLERY_406921386" id="wows1_3"/></li>
+<li><img src="data1/images/gallery_677468536.jpg" alt="GALLERY_677468536" title="GALLERY_677468536" id="wows1_4"/></li>
+<li><img src="data1/images/gallery_962829589.jpg" alt="GALLERY_962829589" title="GALLERY_962829589" id="wows1_5"/></li>
+<li><img src="data1/images/main.jpg" alt="main" title="main" id="wows1_6"/></li>
+<li><img src="data1/images/online_exa1.jpg" alt="online_exa1" title="online_exa1" id="wows1_7"/></li>
+<li><img src="data1/images/01.jpg" alt="01" title="01" id="wows1_8"/></li>
+<li><img src="data1/images/slide_2.jpg" alt="slide_2" title="slide_2" id="wows1_9"/></li>
+</ul></div>
+<div class="ws_bullets"><div>
+<a href="#" title="innerBannerCollege"><img src="data1/tooltips/innerbannercollege.jpg" alt="innerBannerCollege"/>1</a>
+<a href="#" title="GALLERY_103820800"><img src="data1/tooltips/gallery_103820800.jpg" alt="GALLERY_103820800"/>2</a>
+<a href="#" title="GALLERY_108154296"><img src="data1/tooltips/gallery_108154296.jpg" alt="GALLERY_108154296"/>3</a>
+<a href="#" title="GALLERY_406921386"><img src="data1/tooltips/gallery_406921386.jpg" alt="GALLERY_406921386"/>4</a>
+<a href="#" title="GALLERY_677468536"><img src="data1/tooltips/gallery_677468536.jpg" alt="GALLERY_677468536"/>5</a>
+<a href="#" title="GALLERY_962829589"><img src="data1/tooltips/gallery_962829589.jpg" alt="GALLERY_962829589"/>6</a>
+<a href="#" title="main"><img src="data1/tooltips/main.jpg" alt="main"/>7</a>
+<a href="#" title="online_exa1"><img src="data1/tooltips/online_exa1.jpg" alt="online_exa1"/>8</a>
+<a href="#" title="01"><img src="data1/tooltips/01.jpg" alt="01"/>9</a>
+<a href="#" title="slide_2"><img src="data1/tooltips/slide_2.jpg" alt="slide_2"/>10</a>
+</div></div>
+<a class="wsl" href="http://wowslider.com">Download Free jQuery Slideshow by WOWSlider.com v2.5</a>
+	<div class="ws_shadow"></div>
+	</div>
+	<script type="text/javascript" src="engine1/wowslider.js"></script>
+	<script type="text/javascript" src="engine1/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+   <!-- </div>-->
+    
+  </div>
+  <!-- end of header -->
+</div>
+<!-- end of menu_wrapper -->
+<div id="menu_wrapper">
+  <div id="menu">
+    <ul>
+      <li><a href="Home.aspx">Home</a></li>
+      <li><a href="login.aspx">Log In</a></li>
+      <li><a href="Result1.aspx">Results</a></li>
+      <li><a href="Feedback.aspx">Feedback</a></li>
+      <li><a href="Aboutus.aspx">About Us</a></li>
+      <li><a href="Contactus.aspx">Contact Us</a></li>
+    </ul>
+  </div>
+  <!-- end of menu -->
+</div>
+<div id="content_wrapper">
+  <div id="sidebar">
+    <div class="sidebar_box">
+      <h2>Courses Offered</h2>
+      <div class="news_box"> 
+          <div class="style3">
+              <a href="#">Diploma in Computer Engineering.</a>
+          </div>
+        <p class="post_info" style="text-align: left"> <a href="Comp.aspx">View Program Details.</a></p>
+      </div>
+      <div class="news_box"> 
+          <div class="style3">
+              <a href="#">Diploma in Information Technology.</a>
+          </div>
+        <p class="post_info" style="text-align: left"> <a href="It.aspx">View Program Details.</a></p>
+      </div>
+      <div class="news_box"> 
+          <div class="style3">
+              <a href="#">Diploma in Electronics &amp; Telecommunication 
+          Engineering.</a>
+          </div>
+        <p class="post_info" style="text-align: left"><a href="Eandtc.aspx">View Program Details.</a></p>
+      </div>
+      <div class="news_box"> 
+          <div class="style3">
+              <a href="#">Diploma in Civil Engineering.</a>
+          </div>
+        <p class="post_info" style="text-align: left"><a href="Civil.aspx">View Program Details.</a></p>
+      </div>
+       <div class="news_box"> 
+           <div class="style3">
+               <a href="#">Diploma in Mechanical Engineering.</a>
+           </div>
+        <p class="post_info" style="text-align: left"><a href="Mech.aspx">View Program Details.</a></p>
+      </div>
+    </div>
+    <%--<div class="sidebar_box_bottom"></div>--%>
+    <div class="sidebar_box">
+     <%-- <h2>Newsletter</h2>
+      <form action="#" method="get">
+        <label>Please enter your email address to subscribe our newsletter.</label>
+        <input type="text" value="" name="username" size="10" id="input_field" />
+        <input type="submit" name="login" value="Subscribe" alt="login" id="submit_btn" />
+      </form>--%>
+      <%--<div class="cleaner"></div>--%>
+    </div>
+    <div class="sidebar_box_bottom"></div>
+  </div>
+  <!-- end of sidebar -->
+  
+  <div id="content">
+  
+    <div class="content_box">
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+   </asp:ContentPlaceHolder>
+      <%--<h2>Welcome to D. Y. Patil Polytechnic</h2>
+         <h3 class="style1">Kolhapur.</h3>
+        <p class="style1">&nbsp;</p> 
+      <p> &nbsp;&nbsp;&nbsp; <span class="style2">Dr. D. Y. Patil Polytechnic is approved by All India Council for Technical 
+          Education, New Delhi (AICTE), Govt. of Maharashtra and affiliated to Board of 
+          Technical Education, Mumbai. College offers Diploma in Computer, Mechanical, 
+          Information Technology, Civil and Electronics and Telecommunication Engineering 
+          courses. </span> <a href="#"></a> </p>
+      <div class="cleaner_h20"></div>
+      <div class="image_fl"> <img src="images/image_preview.jpg" alt="" /> </div>
+      <div class="section_w250 float_r">
+        <ul class="list_01">
+          <li>Laboratory Facilities. All labs are well equipped with modern facilities. </li>
+          <li>Library. The college has a spacious library having Newspapers, Reference Books 
+              and Current periodicals. It provides excellent facilities to the faculty and 
+              students for their studies, research and training. </li>
+          <li>Classroom Facilities. All classroom of the college are well furnished. </li>
+        </ul> --%>  
+      </div>
+     
+     <%-- <div class="cleaner"></div>--%>
+    </div>
+    <%--<div class="content_box_bottom"></div>--%>
+    <%--<div class="content_box">
+      <h2>Testimonial</h2>
+      <div class="section_w250 float_l">
+        <h3>Praesent sollicitudin</h3>
+        <p>Nullam faucibus volutpat sapien sit amet tristique. Suspendisse venenatis, urna nec rhoncus suscipit, turpis turpis auctor nisi.</p>
+      </div>
+      <div class="section_w250 float_r">
+        <h3>Quisque blandit</h3>
+        <p>Morbi blandit ipsum sed purus vestibulum bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec nibh sed tellus.</p>
+      </div>
+      <div class="cleaner"></div>
+    </div>--%>
+    <%--<div class="content_box_bottom"></div>--%>
+  </div>
+  <!-- end of content -->
+  <div class="cleaner"></div>
+</div>
+<div id="footer_wrapper">
+  <div id="footer">
+    <ul class="footer_menu">
+      <li><a href="Home.aspx">Home</a></li>
+      <li><a href="login.aspx">Log In</a></li>
+      <li><a href="Result1.aspx">Result</a></li>
+      <li><a href="Feedback.aspx">Feedback</a></li>
+      <li><a href="Aboutus.aspx">About Us </a></li>
+      <li class="last_menu"><a href="Contactus.aspx">Contact Us</a></li>
+    </ul>
+       Copyright © 2K15 <a href="#">Bright Chem Industries</a> | Designed by <a target="_blank" rel="nofollow" href="https://www.facebook.com/manthan.mehta.908">
+      Manthan Mehta</a> <a>and</a> <a>Rutuja Patil</a></div>
+</div>
+
+     
+    </div>
+    </form>
+</body>
+</html>
